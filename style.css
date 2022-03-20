@@ -1,0 +1,339 @@
+/* 
+====================================================================================================================
+                                           RESTART
+====================================================================================================================
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    text-decoration: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*========================================= End Reset =================================================*/
+
+:root{
+    --main-color:#d3ad7f;
+    --black:#13131a;
+    --bg:#010103;
+    --border:.1rem solid rgba(77, 48, 6, 0.3);
+}/*========================================= Navbar ===================================================*/
+.Navv{
+    font-size: 1.4rem;
+    background-color: rgb(180, 101, 31);
+}
+.Navv img{
+    max-width: 3rem;
+}
+/*======================================= Coffee To Go ================================================*/
+.nutrition, .background-colour{
+    text-align: center;
+    background: rgb(247, 239, 232);
+    color: rgb(77, 47, 6);
+    font-size: 1.2rem;
+    padding: 1.2em;
+}
+.title{
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    text-align: left;
+    font-weight: 900;
+    position: relative;  
+}
+.title::after{
+    content: "";
+    position: absolute;
+    left: 0rem;
+    bottom: -0.5rem;
+    width: 3rem;
+    height: 0.2rem;
+    background: rgb(77, 47, 6);
+}
+.pOne, .pTwo{
+    display: flex;
+    line-height: 2rem;
+    font-weight: lighter;
+    font-size: 1.2rem;
+    text-align: left;
+    max-width: 35rem;
+
+
+}
+.my-icon{
+    margin-top: 2rem;
+    font-size: 2.6rem;
+    background-color:rgb(117, 73, 12);
+    color: white;
+    padding: 2rem 2rem;
+    border-radius: 50%;
+}
+.cofi{
+    background-color: rgb(77, 47, 6);
+    margin-top: 3rem;
+
+}
+/*======================================= Coffee Points ===============================================*/
+
+.info-Beans{
+    display: flex;
+}
+.points{
+    text-align: center;
+    background: white;
+    color: rgb(77, 47, 6);
+    font-size: 1.2rem;
+    padding: 1.2em;
+}
+.img-fluid{
+    margin: 2rem 0rem;
+}
+.title-bp{
+    font-size: 2rem;
+    margin-top: 2rem;
+    padding-bottom: 0.5rem;
+    font-weight: 900;
+    text-align: left;
+    position: relative;
+    margin-bottom: 1rem;
+}
+.title-bp::after{
+    content: "";
+    position: absolute;
+    left: 0rem;
+    bottom: 0rem;
+    width: 8%;
+    height: 0.2rem;
+    background: rgb(77, 47, 6);
+}
+.points p{
+    font-size: 1.1rem;
+    display: block;
+    line-height: 2rem;
+    text-align: left;
+
+}
+.Two{
+    padding-top: 20px;
+}
+.listt{
+    max-width: 25rem;
+    padding-top: 20px;
+    display: block;
+    text-align: left;
+    font-size: 1.1rem;
+    margin-left: 3rem;
+}
+.listt li{
+    padding: 5px 0px;
+    list-style-type: style;   
+}
+
+/*========================================== Nosotros =================================================*/
+
+.title-ab{
+    font-size: 2rem;
+    margin-top: 1rem;
+    padding-bottom: 0.5rem;
+    font-weight: 900;
+    text-align: left;
+    position: relative;
+    margin-bottom: 1rem;
+}
+.title-ab::after{
+    content: "";
+    position: absolute;
+    left: 0rem;
+    bottom: -0.5rem;
+    width: 8%;
+    height: 0.2rem;
+    background: rgb(77, 47, 6);
+}
+.about-p{
+    text-align: left;
+    font-size: 1.1rem;
+    line-height: 2rem;
+}
+.about-p p{
+    margin-bottom: 1.5rem;
+    max-width: 40rem;
+
+}
+/*======================================== Encuentranos ===============================================*/
+
+.info-Find{
+    display: flex;
+    line-height: 2rem;
+    color: rgb(77, 47, 6);
+    background: white;
+    padding: 3rem 1.5rem 1.5rem 2rem;      
+}
+.Find{
+    display: flex;
+    margin-top: 2rem;
+
+}
+.Find iframe{
+    width: 50rem;
+    height: 24rem;
+}
+.title-fn{
+    font-size: 2rem;
+    font-weight: 900;
+    padding-bottom: 1.5rem;
+    position: relative;
+    display: inline-block;
+    margin-top: 2rem;
+}
+strong{
+    font-weight: bolder;
+}
+.title-fn::after{
+    content: "";
+    position: absolute;
+    left: 0rem;
+    bottom: 1rem;
+    width: 25%;
+    height: 0.2rem;
+    background: rgb(77, 47, 6);
+}
+.Find b{
+    font-weight: 900;
+}
+.parrafo-fn{
+    margin: 0rem 2rem;
+    max-width: 30rem;
+}
+.parrafo-fn p{
+    padding-bottom: 7rem;
+}
+
+/*======================================== Contactanos ================================================*/
+.title-cn{
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 1.5rem;
+    margin-left: 2rem;
+    position: relative;
+    display: inline-block;
+}
+.title-cn::after{
+    content: "";
+    position: absolute;
+    left: 0rem;
+    bottom: 1rem;
+    width: 40%;
+    height: 0.2rem;
+    background: white;
+}
+.textt{
+    font-size: 2rem;
+}
+.contact{
+    color: rgb(77, 47, 6);
+    color: #fff;
+    /*background: rgb(247, 239, 232);*/
+    background-image: url(img/contact.jpg);
+    background-size: cover;
+    font-size: 1.2rem;
+    padding: 1.2rem;
+    align-items: center;
+}
+.contact-form-text{
+    max-width: 40rem;
+    align-items: center;
+}
+input, textarea{
+    opacity: 70%;
+}
+#mail{
+    color: #fff;
+
+}
+.contact-form-text .col-12{
+    padding: 1rem;
+}
+.contact img{
+    margin: 3rem 1rem;
+    width: 50rem;
+    height: 10rem;
+}
+
+/*============================================= Footer page ===========================================*/
+.footer{
+    background-color: rgb(77, 47, 6);
+    color: white;
+    font-size: 1rem;
+}
+.footer-title{
+    font-size: 1.5rem;
+    padding: 1rem 0rem;
+}
+.footer span{
+    padding: 0.2rem 0rem;
+    font-weight: lighter;
+    font-size: 1.2rem;
+}
+.contact-email a{
+    color: #fff;
+}
+.adress{
+    padding-left: 2rem;
+}
+.follow-us{
+    font-size: 1.5rem;
+    padding: 1rem 0rem;
+}
+.follow-us span{
+    padding-top: 2rem;
+    font-size: 2rem;
+    color: white;
+}
+.fa-coffee{
+    padding-top: 2rem;
+    font-size: 2rem;
+    color: #fff;
+}
+.share a{
+    color: white;
+    padding-top: 1rem;
+    inline-size: 2.2rem;
+    font-size: 2rem;
+}
